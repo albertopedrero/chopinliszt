@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChopinLiszt</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js" integrity="sha512-X0CJvcClD8EXFn5Oq8BD5lIsznKDfxb0Sf9Wr8MCCTyAEWaAAxr0Jvm3qyofsmN7eSHMZ0PPQGjVKroLAfexrA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <link rel="stylesheet" href="./css/listacompra.css">
+    <script src="./js/listacompra.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>ChopinLiszt</h1>
+        <!--
+        <nav>
+            <ul></ul>
+        </nav>
+        -->
+    </header>
+    <main>
+        <section id="entradaDatos">
+            <!-- Formulario de entrada de datos -->
+             <form id="formularioEntrada">
+                <label for="nombreProducto">Producto</label>
+                <input id="nombreProducto" type="text" placeholder="nombre del producto">
+                <!--<div>Posible mensaje de error </div>-->
+
+             </form>
+        </section>
+        <section id="listaElementos">
+            <!-- Elementos añadidos a la lista de la compra-->
+             <h2>Lista de elementos a comprar</h2>
+             <ul id="listaCompra">
+                <!--<li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+                <li>Elemento 5</li>-->
+             </ul>
+             <div id="numElementos">Total de ítems en la lista: <span>0</span></div>
+        </section>
+    </main>
+    <footer> 
+        <nav>
+            <ul>
+                <li><a href="">Supermercados</a></li>
+                <li><a href="">Mis listas</a></li>
+                <li><a href="">Avisos</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+</body>
+</html>

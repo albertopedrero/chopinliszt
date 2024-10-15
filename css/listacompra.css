@@ -1,0 +1,22 @@
+#listaCompra {
+    list-style-type: none;
+}
+
+#listaCompra li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+}
+.anadido {
+    text-decoration: line-through;
+    color: #10d51a;
+}
+
+.boton {
+    margin-right: 13px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    padding: 4px 6px 0;
+    background-color: aqua;
+}
